@@ -18,26 +18,10 @@
     },
     "location": {
       "type": "string",
+      "defaultValue": "uksouth",
       "allowedValues": [
-        "australiaeast",
-        "brazilsouth",
-        "canadacentral",
-        "centralus",
-        "eastasia",
-        "eastus",
-        "eastus2",
-        "francecentral",
-        "japaneast",
-        "koreacentral",
-        "northcentralus",
-        "northeurope",
-        "southeastasia",
-        "southcentralus",
         "uksouth",
-        "westcentralus",
-        "westus",
-        "westus2",
-        "westeurope"
+        "ukwest"
       ],
       "metadata": {
         "description": "Specifies the location for all resources."
