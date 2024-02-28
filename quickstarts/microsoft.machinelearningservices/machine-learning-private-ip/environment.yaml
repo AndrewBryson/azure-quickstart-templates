@@ -1,0 +1,5 @@
+name: AML playground
+summary: Azure Machine Learning with dependencies
+description: Deployed AML with Storage, Key Vault, ACR, AppInsights
+runner: ARM
+templatePath: azuredeploy.json
