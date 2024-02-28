@@ -15,3 +15,8 @@ parameters:
     allowed:
       - 'uksouth'
       - 'ukwest'
+  - id: vmSize
+    name: AML workspace VM SKU
+    type: string
+    description: The Azure VM SKU you want to base the AML workspace on, e.g. Standard_D4_v3
+    default: 'Standard_D4_v3'
