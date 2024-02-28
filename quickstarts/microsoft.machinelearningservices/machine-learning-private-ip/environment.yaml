@@ -1,13 +1,17 @@
+# yaml-language-server: $schema=https://github.com/Azure/deployment-environments/releases/download/2022-11-11-preview/manifest.schema.json
 name: AML-playground
+version: 1.0.0
 summary: Azure Machine Learning with dependencies
 description: Deployed AML with Storage, Key Vault, ACR, AppInsights
 runner: ARM
 templatePath: azuredeploy.json
 
-- id: location
+parameters:
+  - id: location
     name: Azure region/location
     type: string
     description: Azure region/location
+    default: 'uksouth'
     allowed:
-      - "uksouth"
-      - "ukwest"
+      - 'uksouth'
+      - 'ukwest'
